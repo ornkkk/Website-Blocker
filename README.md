@@ -48,4 +48,12 @@ website_list = ["www.facebook.com",
  - Add the unit file to the system services to automatically load at every startup
  ```
  sudo cp website-blocker.service /etc/systemd/system/
+ sudo systemctl daemon-reload
+ reboot
+ ```
+ - After reboot you can see that the script file will be running automatically. To verify visit any of the blocked websites. They should be unreachable.
+ - To manually start/stop the service use following commands:
+ ```
+ sudo systemctl start website-blocker
+ sudo systemctl stop website-blocker
  ```
