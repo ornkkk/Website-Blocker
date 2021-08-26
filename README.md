@@ -34,8 +34,9 @@ website_list = ["www.facebook.com",
 ~~~
 
 - Change the `start_time`, `end_time`accordingly. Add the website you want to be blocked to `website_list`.
-- Open `website-blocker.service` and edit the following line.
+- Open `website-blocker.service` and add the absolute path to the python script file to `ExecStart` parameter. By default the absolute path is `/home/<user>/Downloads/Website-Blocker/website_blocker.py`
 
   ~~~
   ExecStart=<ABSOLUTE-PATH-TO-PYTHON-SCRIPT>
   ~~~
+  
