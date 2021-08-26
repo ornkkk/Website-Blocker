@@ -13,5 +13,9 @@ This is the *python script* file for the website blocker.
 This is the *unit file* for running the python script as a system service and loading it at startup.
 
 
-### Instructions
+### Installation Instructions
+- Download the repository by executing following commands
+'''
+git clone https://github.com/ornkkk/Website-Blocker.git
+'''
 
