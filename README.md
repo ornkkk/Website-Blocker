@@ -1,5 +1,4 @@
 # Website-Blocker
-<<<<<<< HEAD
 
 ## This is a repository for debian linux website blocker using Python.
 
@@ -15,6 +14,4 @@ This is the *unit file* for running the python script as a system service and lo
 
 
 ### Instructions
-=======
-This is a repository for linux website blocker using python
->>>>>>> 29d4d611cd11960711f1dcaeb938e43e5014c26d
+
