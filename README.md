@@ -15,7 +15,7 @@ This is the *unit file* for running the python script as a system service and lo
 
 ### Installation Instructions
 - Download the repository by executing following commands
-'''
+```
 git clone https://github.com/ornkkk/Website-Blocker.git
-'''
+```
 
