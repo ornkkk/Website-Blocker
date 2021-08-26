@@ -39,4 +39,4 @@ website_list = ["www.facebook.com",
   ~~~
   ExecStart=/home/<user>/Downloads/Website-Blocker/website_blocker.py
   ~~~
-  Note: Replace <user> with your username
+  Note: Replace `<user>` with your username
