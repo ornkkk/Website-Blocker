@@ -39,4 +39,13 @@ website_list = ["www.facebook.com",
   ~~~
   ExecStart=/home/<user>/Downloads/Website-Blocker/website_blocker.py
   ~~~
-  Note: Replace `<user>` with your username
+  Note: Replace `<user>` with your username.
+ 
+ - Give execute permissions to the script file
+ ```
+ sudo chmod +x website_blocker.py
+ ```
+ - Add the unit file to the system services to automatically load at every startup
+ ```
+ sudo cp website-blocker.service /etc/systemd/system/
+ ```
