@@ -1,4 +1,4 @@
-# Website-Blocker
+# Website-Blocker :no_entry_sign: :no-entry:
 
 ## This is a repository for debian linux website blocker using Python.
 
