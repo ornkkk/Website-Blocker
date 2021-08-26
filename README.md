@@ -37,6 +37,6 @@ website_list = ["www.facebook.com",
 - Open `website-blocker.service` and add the absolute path to the python script file to `ExecStart` parameter. By default the absolute path is `/home/<user>/Downloads/Website-Blocker/website_blocker.py`
 
   ~~~
-  ExecStart=<ABSOLUTE-PATH-TO-PYTHON-SCRIPT>
+  ExecStart=/home/<user>/Downloads/Website-Blocker/website_blocker.py
   ~~~
-  
+  Note: Replace <user> with your username
